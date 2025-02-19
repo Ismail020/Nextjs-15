@@ -11,8 +11,6 @@ import View from "@/components/View";
 
 const md = markdownit();
 
-export const experimental_ppr = true;
-
 export default async function page({
   params,
 }: {
